@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>users</h1>
+    <div id="container"></div>
+    <h1>Create User</h1>
+    <form action="" onsubmit="createUser(event)">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" placeholder="name" />
+      <label for="name">Age</label>
+      <input type="text" name="age" id="age" placeholder="age" />
+      <label for="name">Place</label>
+      <input type="text" name="place" id="place" placeholder="place" />
+      <button type="submit">submit</button>
+    </form>
+    <h1>Edit User</h1>
+    <form action="" onsubmit="edituserform(event)" >
+        <input type="hidden" id="hidden" >
+      <label for="name">Name</label>
+      <input type="text" name="name" id="editname" placeholder="name" />
+      <label for="name">Age</label>
+      <input type="text" name="age" id="editage" placeholder="age" />
+      <label for="name">Place</label>
+      <input type="text" name="place" id="editplace" placeholder="place" />
+      <button type="submit">submit</button>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
